@@ -1,5 +1,5 @@
-export const BASE_PATH = import.meta.env.VITE_API_URL || "https://api.ree6.de" // <- Edit this string to your own API
-export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://invite.ree6.de" // <- Edit this string to your Invite link
+export const BASE_PATH = import.meta.env.VITE_API_URL || "https://delitebotpanel.kermitcloud.space/" // <- Edit this string to your own API
+export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://discord.com/oauth2/authorize?client_id=1310688150838050818&permissions=8&integration_type=0&scope=bot" // <- Edit this string to your Invite link
 
 export function get(path: string) {
 
