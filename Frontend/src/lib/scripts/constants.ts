@@ -1,4 +1,4 @@
-export const BASE_PATH = import.meta.env.VITE_API_URL || "https://kermitsadmintunnel.kermitcloud.com/" // <- Edit this string to your own API
+export const BASE_PATH = import.meta.env.VITE_API_URL || "https://kermitsadmintunnel.kermitcloud.com/guilds/" // <- Edit this string to your own API
 export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://invite.kermitcloud.com" // <- Edit this string to your Invite link
 
 export function get(path: string) {
